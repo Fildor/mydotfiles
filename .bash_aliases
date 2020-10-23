@@ -5,7 +5,7 @@ alias update='sudo apt-get -y update && sudo apt-get -y upgrade && sudo apt-get 
 alias sysupdate='sudo apt update && sudo apt full-upgrade && sudo apt autoremove'
 
 # Backup /home/stephan
-alias backuphome='rsync --progress -a --delete /home/stephan /media/stephan/TOSHIBA\ EXT/DELL_BACKUP_HOME > backup.log &'
+alias backuphome='rsync --progress -a --delete $HOME /media/stephan/TOSHIBA\ EXT/DELL_BACKUP_HOME > backup.log &'
 
 # Create Package list
 alias writepackagelist='apt list --installed > ~/InstalledPackages.txt'

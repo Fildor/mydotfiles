@@ -98,10 +98,11 @@ interval=5
 label=
 interval=10
 min_width=CPU: 100.00%
-#separator=false
+separator=false
 
 [load_average]
 interval=10
+label=
 
 # Battery indicator
 #
